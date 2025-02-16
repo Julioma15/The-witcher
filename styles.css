@@ -1,0 +1,25 @@
+.Negro{
+    color: white;
+    font-weight: bold;
+}
+
+.indexB{
+    background-color: black;
+}
+
+.Fondo .nav-link{
+    background-color: #ffffff;
+    color: black;
+}
+
+.obscuro{
+    background-color: black;
+}
+
+.blanco{
+    color: rgb(158, 158, 158);
+}
+
+.achicar{
+    width: 8rem;
+}
