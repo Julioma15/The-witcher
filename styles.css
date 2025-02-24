@@ -12,14 +12,132 @@
     color: black;
 }
 
-.obscuro{
-    background-color: black;
+.obscuro {
+    background-color: #1a1a1a;
+    color: white;
 }
 
 .blanco{
     color: rgb(158, 158, 158);
 }
 
+.buscar{
+    color: #ffffff;
+}
+
 .achicar{
     width: 8rem;
+}
+
+.texto{
+    padding: 20px;
+    line-height: 1.8;
+    font-size: 18px;
+    text-align: justify;
+    color: #e0e0e0;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.fondo_cuerpo{
+    background-color:#ecebeb;
+}
+
+.tituloCon{
+    background-color: #000000;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+}
+
+.formulario_container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.campo_input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.boton_registro {
+    background-color: #e28181;
+    color: white;
+    margin-top: 20px;
+}
+.nav {
+    padding: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+.carousel {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.texto {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 50px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+
+.ach{
+    color: black;
+}
+
+.boton_perfil {
+    background-color: #e28181; /* Rojo acorde al tema */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px; /* Bordes redondeados */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.boton_perfil:hover {
+    background-color: #c96c6c; /* Un tono más oscuro al pasar el mouse */
+    transform: scale(1.05);
+}
+
+.notificacion {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #ff4d4d; /* Rojo fuerte para destacar */
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 13px;
+    font-weight: bold;
 }
